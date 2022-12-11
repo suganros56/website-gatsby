@@ -11,7 +11,6 @@ const AboutPage = () => {
     </Layout>
   )
 }
-export const Head = () => <title>About Me</title>
 
 // Step 3: Export your component
 export default AboutPage
