@@ -2,10 +2,11 @@ import React from 'react'
 import Layout from '../components/layout'
 import { graphql } from 'gatsby'
 import Seo from '../components/seo'
+import Homelayout from '../components/homeLayout'
 
 const BlogPage = ({ data })=> {
     return (
-        <Layout title="Blog">
+        <Homelayout title="Blog">
             <ul>
       {
         data.allFile.nodes.map(node => (
@@ -15,7 +16,7 @@ const BlogPage = ({ data })=> {
         ))
       }
       </ul>
-        </Layout>
+        </Homelayout>
     )
 }
 export const query = graphql`

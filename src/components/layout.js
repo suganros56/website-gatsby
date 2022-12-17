@@ -8,6 +8,7 @@ import {
   navLinkText,
   siteTitle
 } from './layout.module.css'
+import Navbar from './navbar'
 
 
 
@@ -22,8 +23,8 @@ const Layout = ({ pageTitle, children }) => {
     }
   `)
   return (
-    <div className={container}>
-       <header  className={siteTitle}>{data.site.siteMetadata.title}</header>
+    <div className="m-20">
+       <header  className="text-5xl text-yellow-500 py-5 ">Hi I'm Roshan Suganthan</header>
       <nav>
         <ul className={navLinks}>
           <li className={navLinkItem}>

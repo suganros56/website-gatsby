@@ -32,5 +32,13 @@ module.exports = {
       name: `blog`,
       path: `${__dirname}/blog`,
     }
-  },]
+  },{
+    resolve: `gatsby-plugin-postcss`,
+    options: {
+      cssLoaderOptions: {
+        camelCase: false,
+      },
+    },
+  }
+]
 };

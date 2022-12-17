@@ -8,7 +8,7 @@
     color: rebeccapurple;
   }
   .nav-links {
-    display: flex;
+    display: block;
     list-style: none;
     padding-left: 0;
   }
