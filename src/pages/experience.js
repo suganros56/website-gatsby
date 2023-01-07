@@ -1,6 +1,7 @@
 import React from 'react'
 import Homelayout from '../components/homeLayout'
 import Navbar from '../components/navbar'
+import Seo from '../components/seo'
 import Sidebar from '../components/Sidebar'
 
 function experience() {
@@ -10,7 +11,7 @@ function experience() {
         <Navbar/>
         <Sidebar/>
             <div className='space-y-1 mx-12 px-12'>
-                <h3 class="text-2xl text-gray-700 font-bold mb-6 -ml-3">Latest News</h3>
+                <h3 class="text-2xl text-gray-700 font-bold mb-6 -ml-3">Experience</h3>
 
                 <ol class="border-l-2 border-purple-600">
                     <li>
@@ -72,5 +73,5 @@ function experience() {
         </div>
     )
 }
-
+export const Head = () => <Seo title="Exprience Page" />
 export default experience
