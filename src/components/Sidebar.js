@@ -1,37 +1,36 @@
 import { Link } from 'gatsby'
 import React from 'react'
-import {
-    container,
-    heading,
-    navLinks,
-    navLinkItem,
-    navLinkText,
-    siteTitle
-  } from './layout.module.css'
-import { IconBrandInstagram } from '@tabler/icons';
+import { IconBrandInstagram, IconBrandGithub , IconBrandLinkedin} from '@tabler/icons';
 
 function Sidebar() {
   return (
     <div>
-        <nav className='block'>
-        <ul className="block px-0">
+      <div className='sidebarlist absolute bottom-0 left-10 space-y-10'>
+        <nav>
+          <div className='space-y-5'>
+        <ul >
           <li>
-            <Link to="/">
+            <Link to="https://www.instagram.com/sugrosh/">
               <IconBrandInstagram />
             </Link>
           </li>
           <li>
-            <Link to="/about">
-              About
+            <Link to="https://github.com/suganros56">
+            <IconBrandGithub/>
             </Link>
           </li>
           <li >
-            <Link to="/blog">
-              Blog
+            <Link to="https://www.linkedin.com/in/roshan-suganthan-aa462b16b/">
+              <IconBrandLinkedin/>
             </Link>
           </li>
+          <li>
+            <div>hrline</div>
+          </li>
         </ul>
+        </div>
       </nav>
+      </div>
     </div>
   )
 }

@@ -12,17 +12,16 @@ const IndexPage = () => {
     <>
 
       <Homelayout pageTitle="Home Page">
-        <p className="text-xl">Hi, my name is</p>
-        <h1 className="text-5xl font-bold">Roshan Suganthan.</h1>
+        <div className='space-y-5'>
+        <p className="text-xl text-lightblue">Hi, my name is</p>
+        <h1 className="text-5xl font-bold hover:text-blue-300">Roshan Suganthan.</h1>
         <p className="text-4xl font-bold">
           I build things for the web.</p>
           <p>
-          I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at Upstatement.</p>
-        <StaticImage
-          alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-          src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
-        />
+          I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at <a className='text-bluelight' href='https://www.backspace-tech.com/'> BackSpace Tech.</a></p>
+          
         <p>I'm making this by following the Gatsby Tutorial.</p>
+        </div>
       </Homelayout>
     </>
   )
