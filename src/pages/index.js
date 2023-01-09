@@ -12,7 +12,7 @@ const IndexPage = () => {
     <>
 
       <Homelayout pageTitle="Home Page">
-        <div className='space-y-5 mx-20 px-10'>
+        <div className='space-y-5 m-20 p-10'>
         <p className="text-2xl text-lightblue">Hi, my name is</p>
         <h1 className="text-6xl font-bold hover:text-blue-300">Roshan Suganthan.</h1>
         <p className="text-5xl font-bold text-slate-400">

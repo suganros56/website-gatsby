@@ -23,7 +23,7 @@ const Homelayout = ({ pageTitle, children }) => {
     <>
       <Navbar/>
       <Sidebar />
-    <div className="mx-12 px-10 mt-20 pt-10">
+    <div className="relative mx-12 px-10 mt-5">
        {/* <header  className="text-5xl text-yellow-500 py-5 ">Hi I'm Roshan Suganthan</header> */}
       <main>
         {children}
