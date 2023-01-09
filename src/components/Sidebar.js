@@ -5,7 +5,7 @@ import { IconBrandInstagram, IconBrandGithub , IconBrandLinkedin} from '@tabler/
 function Sidebar() {
   return (
     <div>
-      <div className='sidebarlist absolute bottom-0 left-10 space-y-10'>
+      <div className='sidebarlist float bottom-0 left-10 space-y-10'>
         <nav>
           <div className='space-y-5'>
         <ul >
@@ -25,7 +25,7 @@ function Sidebar() {
             </Link>
           </li>
           <li>
-            <div>hrline</div>
+            <div className='border-l-2 border-blue-600'></div>
           </li>
         </ul>
         </div>

@@ -30,7 +30,7 @@ function Navbar() {
                         04.Contact
                     </Link></div>
                 <div class="px-3 py-1 flex justify-center">
-                    <Link to="/">
+                    <Link to="https://drive.google.com/file/d/1ognRyb4eVm_KkCTA70S7YGLG0GQzzsO2/view?usp=sharing">
                         <div className=' p-2 rounded-full border-double border-2 border-lightblue hover:bg-lightblue'>Resume</div>
                     </Link></div>
             </div>
