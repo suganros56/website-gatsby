@@ -1,8 +1,7 @@
 import React from 'react'
 import Homelayout from '../components/homeLayout'
-import Navbar from '../components/navbar'
-import Seo from '../components/seo'
-import Sidebar from '../components/Sidebar'
+import Seo from "../components/Seo"
+
 
 function experience() {
     return (

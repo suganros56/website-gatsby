@@ -1,5 +1,6 @@
 import React from 'react'
 import Homelayout from '../components/homeLayout'
+import Seo from "../components/Seo"
 
 function work() {
   return (
@@ -62,5 +63,5 @@ function work() {
     </Homelayout></div>
   )
 }
-
+export const Head = () => <Seo title="Work Page" />
 export default work

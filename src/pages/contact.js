@@ -1,6 +1,6 @@
 import React from 'react'
 import Homelayout from '../components/homeLayout'
-import Seo from '../components/seo'
+import Seo from "../components/Seo"
 
 function contact() {
   return (

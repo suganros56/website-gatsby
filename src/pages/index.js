@@ -1,9 +1,8 @@
 // Step 1: Import React
 import * as React from 'react'
-import { StaticImage } from 'gatsby-plugin-image'
-import Seo from '../components/seo'
+import Seo from "../components/Seo"
 import '../styles/global.css'
-import Navbar from '../components/navbar'
+
 import Homelayout from '../components/homeLayout'
 
 // Step 2: Define your component
