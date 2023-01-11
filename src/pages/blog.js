@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Seo from 'my-gatsby-site/src/components/Seo.js'
+import Seo from "../components/Seo"
 import Homelayout from '../components/homeLayout'
 
 const BlogPage = ({ data })=> {

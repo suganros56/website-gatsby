@@ -1,6 +1,6 @@
 // Step 1: Import React
 import * as React from 'react'
-import Seo from 'my-gatsby-site/src/components/Seo.js'
+import Seo from "../components/Seo"
 import '../styles/global.css'
 import Homelayout from '../components/homeLayout'
 

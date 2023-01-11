@@ -1,6 +1,6 @@
 import React from 'react'
 import Homelayout from '../components/homeLayout'
-import Seo from 'my-gatsby-site/src/components/Seo.js'
+import Seo from "../components/Seo"
 
 function work() {
   return (
