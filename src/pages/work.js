@@ -1,5 +1,6 @@
 import React from 'react'
 import Homelayout from '../components/homeLayout'
+import Seo from 'my-gatsby-site/src/components/Seo.js'
 
 function work() {
   return (
@@ -62,5 +63,5 @@ function work() {
     </Homelayout></div>
   )
 }
-
+export const Head = () => <Seo title="Work" />
 export default work

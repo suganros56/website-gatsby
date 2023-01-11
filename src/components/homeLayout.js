@@ -1,11 +1,8 @@
 import * as React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
-import {
-    heading
-  } from './layout.module.css'
 
 import Navbar from './navbar'
-import Sidebar from './sidebar'
+import Sidebar from 'my-gatsby-site\src\components\Sidebar.js'
 
 
 

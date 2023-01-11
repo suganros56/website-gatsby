@@ -1,8 +1,7 @@
 // Step 1: Import React
 import * as React from 'react'
 import Homelayout from '../components/homeLayout'
-import Layout from '../components/layout'
-import Seo from '../components/seo'
+import Seo from 'my-gatsby-site/src/components/Seo.js'
 
 // Step 2: Define your component
 const AboutPage = () => {
