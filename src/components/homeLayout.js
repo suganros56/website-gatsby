@@ -5,7 +5,7 @@ import {
   } from './layout.module.css'
 
 import Navbar from './navbar'
-import Sidebar from './sidebar'
+import Sidebar from "../components/Sidebar"
 
 
 
