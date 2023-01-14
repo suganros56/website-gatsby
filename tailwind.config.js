@@ -22,7 +22,15 @@ module.exports = {
       'darkblue':'#112D4E',
       'verylightgrey':'#DBE2EF',
       'lightgreishwhite':'#F9F7F7',
-
+      'mustardgreen':'#77ABA8'
+    },
+    fontFamily: {
+      'acumen-pro':['acumin-pro',
+      "Acumin Pro",
+      "Helvetica Neue",
+      "Helvetica",
+      "Arial",
+      "sans-serif"]
     },
   },
   plugins: [],

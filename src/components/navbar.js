@@ -14,20 +14,20 @@ function Navbar() {
                 </div>
                 <div class="px-3 py-3 flex justify-center">
                     <Link to="/about">
-                        01.About
+                        About
                     </Link>
                 </div>
                 <div class="px-3 py-3 flex justify-center">
                     <Link to="/experience">
-                        02.Experience
+                        Experience
                     </Link></div>
                 <div class="px-3 py-3 flex justify-center">
                     <Link to="/work">
-                        03.Work
+                        Work
                     </Link></div>
                 <div class="px-3 py-3 flex justify-center">
                     <Link to="/contact">
-                        04.Contact
+                        Contact
                     </Link></div>
                 <div class="px-3 py-1 flex justify-center">
                     <Link to="https://drive.google.com/file/d/1ognRyb4eVm_KkCTA70S7YGLG0GQzzsO2/view?usp=sharing">

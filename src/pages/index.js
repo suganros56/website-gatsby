@@ -8,12 +8,12 @@ import Homelayout from '../components/homeLayout'
 // Step 2: Define your component
 const IndexPage = () => {
   return (
-    <>
+    <div >
 
       <Homelayout pageTitle="Home Page">
         <div className='space-y-5 m-20 p-10'>
         <p className="text-2xl text-lightblue">Hi, my name is</p>
-        <h1 className="text-6xl font-bold hover:text-blue-300">Roshan Suganthan.</h1>
+        <h1 className="text-6xl font-acumen-pro font-normal hover:text-blue-300">Roshan Suganthan.</h1>
         <p className="text-5xl font-bold text-slate-400">
           I build things for the web.</p>
           <p className='text-xl mr-20 pr-10'>
@@ -21,7 +21,7 @@ const IndexPage = () => {
           
         </div>
       </Homelayout>
-    </>
+    </div>
   )
 }
 

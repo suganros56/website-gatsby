@@ -4,7 +4,7 @@ import Seo from "../components/Seo"
 
 function contact() {
   return (
-    <div>
+    <div >
         <Homelayout pageTitle="Contact">
     <div className='space-y-5'>
     <p className="text-2xl text-bluelight text-center mt-20 pt-10">What’s Next?</p>
